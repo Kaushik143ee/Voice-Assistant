@@ -43,7 +43,9 @@ async function getResponseFromAPI(userQuery) {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer R0MVZE112IY9088KSRDV191KZDKG4FGHRB255FBOT097PW2CXJBZHGZJBRKUU2VZ'
+          'Authorization': 'Bearer R4F8DORTM8VH29FKVRR23VUAMHQTFFBIR9OZ0U8JCDI6OZ7CL1JLE4MWAFF5P745
+
+'
       },
       body: JSON.stringify({
           model: 'gpt-3.5-turbo',
